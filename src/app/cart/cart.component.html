@@ -1,5 +1,7 @@
 <h3>Cart</h3>
 
+<button id="ship" routerLink="/rouship">Shipping Information</button>
+
 <div class="cart-item" *ngFor="let i of items">
   <span>{{ i.name }}</span>
   <span>{{ i.price | currency }}</span>
